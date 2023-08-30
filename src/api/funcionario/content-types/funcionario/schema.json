@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funcionarios",
+  "info": {
+    "singularName": "funcionario",
+    "pluralName": "funcionarios",
+    "displayName": "Funcionarios"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Salary": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
