@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simuladores",
+  "info": {
+    "singularName": "simulador",
+    "pluralName": "simuladores",
+    "displayName": "simuladores"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "script": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
